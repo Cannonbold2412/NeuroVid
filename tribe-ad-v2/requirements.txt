@@ -1,0 +1,39 @@
+# NeuroAd Optimizer V2 - Dependencies
+# Python 3.10+
+
+# Core Web Framework
+fastapi>=0.115.0
+uvicorn[standard]>=0.34.0
+python-multipart>=0.0.20
+
+# Video Processing
+opencv-python>=4.11.0
+moviepy>=2.2.1
+
+# Data & ML
+numpy>=2.2.0
+pandas>=2.2.0
+scikit-learn>=1.6.0
+
+# Deep Learning (PyTorch)
+torch>=2.5.0
+torchvision>=0.20.0
+transformers>=4.40.0
+
+# TRIBE v2 Core Dependencies
+huggingface-hub>=0.21.0
+einops>=0.7.0
+pyyaml>=6.0.1
+x-transformers>=1.27.0
+spacy>=3.7.0
+gtts>=2.5.0
+langdetect>=1.0.9
+soundfile>=0.12.0
+Levenshtein>=0.25.0
+julius>=0.2.7
+
+# Utilities
+pydantic>=2.6.0
+tqdm>=4.66.0
+requests>=2.31.0
+aiofiles>=23.2.0
